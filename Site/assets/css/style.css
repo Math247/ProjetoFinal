@@ -20,7 +20,9 @@ a {
   transition: 0.5s;
 }
 
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   color: #1dc9ce;
   outline: none;
   text-decoration: none;
@@ -31,7 +33,12 @@ p {
   margin: 0 0 30px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -75,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #2e898f, #68ca8f);
 }
 
 #header #logo {
@@ -94,7 +101,8 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-#header #logo h1 a, #header #logo h1 a:hover {
+#header #logo h1 a,
+#header #logo h1 a:hover {
   color: #fff;
 }
 
@@ -118,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #2e898f, #68ca8f);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -130,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 #intro {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, rgba(29, 224, 153, 0.8), rgba(29, 200, 205, 0.8)), url("../img/intro-bg.jpg") center top no-repeat;
+  background: url("../img/fundo\ \(10\).png") center top no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -142,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .intro-text {
-  position: absolute;
+  position: relative;
   left: 0;
   top: 60px;
   right: 0;
@@ -155,6 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
   margin: 30px 0 10px 0;
   padding: 0 15px;
   font-size: 48px;
@@ -248,7 +257,8 @@ h1, h2, h3, h4, h5, h6 {
     position: static;
     padding-top: 30px;
   }
-  #intro .product-screens .product-screen-2, #intro .product-screens .product-screen-3 {
+  #intro .product-screens .product-screen-2,
+  #intro .product-screens .product-screen-3 {
     display: none;
   }
 }
@@ -257,7 +267,8 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Nav Menu Essentials */
-.nav-menu, .nav-menu * {
+.nav-menu,
+.nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -353,7 +364,9 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .menu-active > a:before {
+.nav-menu a:hover:before,
+.nav-menu li:hover > a:before,
+.nav-menu .menu-active > a:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -782,13 +795,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 768px) {
-  #advanced-features .advanced-feature-img-right, #advanced-features .advanced-feature-img-left {
+  #advanced-features .advanced-feature-img-right,
+  #advanced-features .advanced-feature-img-left {
     max-width: 50%;
   }
 }
 
 @media (max-width: 767px) {
-  #advanced-features .advanced-feature-img-right, #advanced-features .advanced-feature-img-left {
+  #advanced-features .advanced-feature-img-right,
+  #advanced-features .advanced-feature-img-left {
     max-width: 100%;
     float: none;
     padding: 0 0 30px 0;
@@ -799,7 +814,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #call-to-action {
   overflow: hidden;
-  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)),
+    url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -902,7 +918,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-align: center;
     padding-bottom: 15px;
   }
-  #more-features h4, #more-features p {
+  #more-features h4,
+  #more-features p {
     margin-left: 0;
     text-align: center;
   }
@@ -1273,13 +1290,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   animation: animate-loading 1s linear infinite;
 }
 
-#contact .php-email-form input, #contact .php-email-form textarea {
+#contact .php-email-form input,
+#contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-#contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
+#contact .php-email-form input::focus,
+#contact .php-email-form textarea::focus {
   background-color: #1dc8cd;
 }
 
