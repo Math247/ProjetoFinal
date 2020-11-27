@@ -1,6 +1,6 @@
 # Projeto Final
 
-## Projeto Final para o CEFET onde criamos um site e um aplicativo para futuros alunos.
+## Projeto Final para o CEFET onde criamos um site para futuros alunos.
 
 - Identificamos que muitos alunos que entram no CEFET não tem plena noção do que irão estudar em seus devidos cursos.
 - Isso resulta em abandonos no meio do curso técnico, ou concluindo-os de qualquer maneira.

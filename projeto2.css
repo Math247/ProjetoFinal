@@ -1,0 +1,17 @@
+.btn-info {
+    background-color: #165cdd;
+    color: #FFFFFF;
+}
+.bg-cefet{
+    color: #fff;
+    background-color: #183a7a ;
+    border: #183a7a ;
+}
+.text-texto{
+    color: #165cdd;
+    background-color: #fff;
+    border: #165cdd;
+}
+html {
+    scroll-behavior: smooth;
+  }
